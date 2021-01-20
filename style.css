@@ -95,7 +95,7 @@ body {
   body {
     background-color: #0f7c7c;
   }
-  .form .input .inputBox input[type="submit"]:checked {
-    outline: none;
+  .form .input .inputBox input[type="submit"]:focus {
+    outline: none !important;
   }
 }
