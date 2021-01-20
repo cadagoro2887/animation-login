@@ -65,6 +65,8 @@ body {
     2px 2px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   color: rgb(11, 212, 219);
+  outline: none;
+  border: none;
 }
 
 .form .input .inputBox input[type="submit"]:active {
@@ -86,16 +88,17 @@ body {
 
 .forget a {
   color: #ff0047;
+  outline: none;
 }
 .forget a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 1040px) {
+/* @media (max-width: 1040px) {
   body {
     background-color: #0f7c7c;
   }
   .form .input .inputBox input[type="submit"]:focus {
     outline: none !important;
   }
-}
+} */
